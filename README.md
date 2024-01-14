@@ -12,3 +12,10 @@ To create a virtual environment with Conda, run the following command:
 
 ```bash
 conda create -p venv python=3.10 -y
+```
+
+### Step 2: Run QueryBot
+Launch QueryBot using Streamlit:
+
+streamlit run app.py
+
