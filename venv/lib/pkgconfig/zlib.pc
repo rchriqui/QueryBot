@@ -1,0 +1,13 @@
+prefix=/Users/robin/Desktop/my_projects/QueryBot/venv
+exec_prefix=/Users/robin/Desktop/my_projects/QueryBot/venv
+libdir=/Users/robin/Desktop/my_projects/QueryBot/venv/lib
+sharedlibdir=/Users/robin/Desktop/my_projects/QueryBot/venv/lib
+includedir=/Users/robin/Desktop/my_projects/QueryBot/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

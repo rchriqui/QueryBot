@@ -1,0 +1,5 @@
+#!/Users/robin/Desktop/my_projects/QueryBot/venv/bin/python3.10
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

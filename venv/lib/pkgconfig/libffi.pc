@@ -1,0 +1,11 @@
+prefix=/Users/robin/Desktop/my_projects/QueryBot/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/robin/Desktop/my_projects/QueryBot/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
